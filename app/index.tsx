@@ -1,4 +1,5 @@
-import { StyleSheet, Text, View } from 'react-native';
+import AnimatedIntro from '../components/AnimatedIntro';
+import { StyleSheet, View } from 'react-native';
 
 export default function HomeScreen() {
   return (
@@ -11,7 +12,7 @@ export default function HomeScreen() {
         }
       }
     >
-      <Text>Hey Doug Whats up</Text>
+      <AnimatedIntro />
     </View>
   );
 }
